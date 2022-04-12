@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  background-color: #87CEEB;
+  }
+
+.container{
+  display: flex;
+  /* border: 5px solid black; */
+}
+.gora{
+  width: 100%;
+  height:  85%;
+  position: fixed;
+  bottom: 0;
+  border-bottom: 20px solid green;
+}
+.step{
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  background-color: red;
+}
+.step1{
+   top: 80%;
+  left: 15%;
+}
+.step2{
+  top: 60%;
+  left: 20%;
+}
+.step3{
+top: 45%;
+left: 30%;
+}
+.step4{
+  top: 30%;
+  left:40% ;
+}
+.step5{
+  top: 45%;
+  left: 48%;
+}
+.step6{
+  top: 60%;
+  left:58% ;
+}
+.step7{
+  top: 45%;
+  left: 68%;
+}
+.step8{
+  top: 30%;
+  left: 72%;
+}
+.step9{
+  width: 30px;
+  top: 17%;
+  left: 73%;
+}
+.finish{
+  max-width: 70px;
+  position: absolute;
+  right: 23%;
+  top: 5%;
+  background: transparent;
+  display: none;
+  
+}
+.climper{
+  max-width: 50px;
+  height: auto;
+  position: absolute;
+  /* top: 4500%; */
+  background: transparent;
+  
+}
+.soln_1 {
+  background: transparent;
+  max-width: 100px;
+  height: auto;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  display: none;
+}
+.soln_2 {
+  background: transparent;
+  max-width: 100px;
+  height: auto;
+  position: absolute;
+  top: 5%;
+left: 10%;
+  display: block;
+}
+/* .end{
+position: absolute;
+  height: 50px;
+  width: 50px;
+  background: red;
+  top: 91%;
+  left: 10%;
+} */
+.moon{
+  width: 70px;
+  position: absolute;
+  top: 7%;
+  left: 12%;
+  background: transparent;
+  display: none;
+}
